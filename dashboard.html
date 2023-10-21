@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./dashboard.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div id="logout" style="color: black;">Logout</div>
+      <h1>User Dashboard</h1>
+      <div class="user-list" id="user-list"></div>
+      <div class="update-user-form" id="update-user-form" style="display: none;">
+        <h3>Update User</h3>
+        <input type="text" id="update-username" placeholder="New Username" />
+        <input type="email" id="update-email" placeholder="New Email" />
+        <input type="password" id="update-password" placeholder="New Password" />
+        <button id="update-user-button">Update</button>
+      </div>
+    </div>
+    <script src="./dashboard.js"></script>
+    
+  </body>
+</html>
